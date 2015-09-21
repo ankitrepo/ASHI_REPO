@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fb="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/standard_layout1" >
+
+    <LinearLayout
+        style="@style/standard_layout1"
+        android:baselineAligned="true"
+        android:weightSum="100" >
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/mandi5_header_layout" />
+    </LinearLayout>
+
+        <LinearLayout
+            style="@style/standard_layout6"
+            android:layout_weight="100" >
+
+            <LinearLayout
+                android:id="@+id/login_layout"
+                android:layout_margin="10dip"
+                style="@style/mandi5_screen_spinner_layout" >
+
+                <ScrollView
+                    android:id="@+id/myScrollView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:scrollbarSize="0dp" >
+
+                    <LinearLayout style="@style/layout_fill_wrap_vertical" >
+
+                        <LinearLayout
+                            style="@style/layout_fill_wrap"
+                            android:paddingBottom="@dimen/standard_padding20" >
+
+                            <TextView
+                                android:id="@+id/TextviewLogin"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginLeft="@dimen/standard_padding5"
+                                android:text="@string/login"
+                                android:textColor="@color/titlecolor"
+                                android:textSize="17dip" />
+                        </LinearLayout>
+
+                        <LinearLayout style="@style/mandi5_screen_spinner_layout" >
+
+                            <EditText
+                                android:id="@+id/user_mobile"
+                                style="@style/standard_edittext1"
+                                android:hint="@string/mobile"
+                                android:paddingLeft="5dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            style="@style/mandi5_screen_spinner_layout"
+                            android:orientation="vertical" >
+
+                            <EditText
+                                android:id="@+id/user_pass"
+                                style="@style/standard_edittext1"
+                                android:hint="@string/password"
+                                android:inputType="textPassword"
+                                android:paddingLeft="5dp" />
+
+                            
+                        </LinearLayout>
+
+                        <LinearLayout
+                            style="@style/mandi5_screen_go_btn_style1"
+                            android:layout_marginTop="@dimen/standard_padding20" >
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:paddingRight="@dimen/standard_padding_2" >
+
+                                <LinearLayout
+                                    android:layout_width="0dip"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50" >
+
+                                    <Button
+                                        android:id="@+id/signin_button"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/orange_btn"
+                                        android:text="Sign in"
+                                        android:textSize="17dip" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dip"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="50"
+                                    android:paddingLeft="@dimen/standard_padding_2" >
+
+                                    <Button
+                                        android:id="@+id/register_button"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:background="@drawable/orange_btn"
+                                        android:text="Register"
+                                        android:textSize="17dip" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            style="@style/layout_fill_wrap_vertical"
+                            android:layout_gravity="center_horizontal"
+                            android:paddingTop="@dimen/standard_padding20" >
+
+                            <TextView
+                                
+                                style="@style/layout_wrap_wrap_vertical"
+                                android:layout_width="fill_parent"
+                                android:background="@drawable/or"
+                                android:textSize="@dimen/standard_padding20"
+                                android:textStyle="normal" />
+                        </LinearLayout>
+
+                       
+
+                        <LinearLayout
+                            style="@style/layout_fill_wrap_vertical"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20dip"
+                            android:paddingTop="@dimen/standard_padding20" >
+
+                            <TextView
+                                android:id="@+id/forgotPassTxt"
+                                style="@style/layout_wrap_wrap_vertical"
+                                android:text="@string/forget_password"
+                                android:textColor="@color/textcolor"
+                                android:textSize="@dimen/standard_padding15"
+                                android:textStyle="normal" />
+
+                            <View
+                                android:layout_width="@dimen/standard_padding_125"
+                                android:layout_height="@dimen/standard_padding_2"
+                                android:background="@color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/forgot_layout"
+                style="@style/layout_fill_wrap_vertical"
+                android:layout_height="fill_parent"
+                android:background="@color/white"
+                android:padding="@dimen/standard_padding10"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    style="@style/layout_fill_wrap"
+                    android:paddingBottom="@dimen/standard_padding20" >
+
+                    <TextView
+                        android:id="@+id/forget_password1"
+                        style="@style/standard_textview1"
+                        android:layout_marginLeft="@dimen/standard_padding5"
+                        android:text="@string/forget_password" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/mandi5_screen_spinner_layout" >
+
+                    <EditText
+                        android:id="@+id/forgot_user_mobile"
+                        style="@style/standard_edittext1"
+                        android:hint="@string/email" />
+                </LinearLayout>
+
+            
+
+                <LinearLayout style="@style/mandi5_screen_btn_style" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal"
+                        android:paddingRight="@dimen/standard_padding_2" >
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="50" >
+
+                            <Button
+                                android:id="@+id/forgot_submit_button"
+                                style="@style/layout_fill_fill_vertical"
+                                android:background="@drawable/orange_btn"
+                                android:text="Submit"
+                                android:textSize="@dimen/standard_padding15" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="50"
+                            android:paddingLeft="@dimen/standard_padding_2" >
+
+                            <Button
+                                android:id="@+id/forgot_cancel_button"
+                                style="@style/layout_fill_fill"
+                                android:background="@drawable/orange_btn"
+                                android:text="Cancel"
+                                android:textSize="@dimen/standard_padding15" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

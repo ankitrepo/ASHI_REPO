@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="gray">#808080</color>
+    <color name="dark_gray_row">#757474</color>
+    <color name="darkblue">#194C7F</color>
+    <color name="brown">#966000</color>
+    <color name="deep_blue">#0066CC</color>
+    <color name="manningstainton_blue">#FFFFFF</color>
+    <color name="orange">#F88017</color>
+    <color name="yellow">#EBEB00</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="light_gray">#C9C3C6</color>
+    <color name="light_gray_row">#EEECEC</color>
+    <color name="carbon_blue_tv">#2411F7</color>
+    <color name="transparent">#00000000</color>
+    <color name="blood_red">#dd1921</color>
+    <color name="sep_bg_top">#cbcbcb</color>
+    <color name="sep_bg_middle">#e0e0e0</color>
+    <color name="airtel_red">#d21d1d</color>
+    <color name="header_shadow_color">#4D4D4D</color>
+    <color name="green">#008000</color>
+    <color name="table_alter_bg">#f3f2f2</color>
+    <color name="tab_line">#595858</color>
+    <color name="selected_row_bg">#3B3738</color>
+    <color name="carbon_blue">#0038DA</color>
+
+    <!-- GRID -->
+    <color name="grid_top_left_solid">#e6e6e6</color>
+    <color name="grid_top_left_stroke">#dadada</color>
+    <color name="grid_top_header_solid">#f3f2f2</color>
+    <color name="grid_top_header_stroke">#dadada</color>
+    <color name="grid_content_white_solid">#ffffff</color>
+    <color name="grid_content_white_stroke">#dadada</color>
+    <color name="grid_content_colored_solid">#f3f2f2</color>
+    <color name="grid_content_colored_stroke">#dadada</color>
+
+    <!-- Phase 2 -->
+    <color name="order_detail_dark_gray_layout_bg">#DBDBDB</color>
+    <color name="translucent_bg">#80000000</color>
+    <color name="seafoam">#ffc6f9e5</color>
+    <color name="chartreuse">#ffb6e9b5</color>
+    <color name="emerald">#ffa6d9b5</color>
+    <color name="bluegrass">#ff96c9b5</color>
+    <color name="turquoise">#ff86b9b5</color>
+    <color name="slate">#ff76a9b5</color>
+    <color name="chocolate">#8C1717</color>
+    <color name="graph_green">#40E440</color>
+    <color name="graph_orange">#FF8000</color>
+    <color name="graph_red">#FF0000</color>
+	<color name="graph_blue">#66A7F6</color>
+	<color name="order_detail_esc_text">#3F0000</color>
+	<color name="textcolor">#303030</color>
+	<!-- Archana Start -->
+	<color name="green_text">#52705F</color>
+	<color name="green_bg">#52705F</color>
+	<!-- Archana End -->
+	<color name="backgroundProductScreen">#EEEEEE</color>
+	<!-- page indicater -->
+	<color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+     <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+     <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+   <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+   <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+   <color name="titlecolor">#ff3e4f</color>
+</resources>

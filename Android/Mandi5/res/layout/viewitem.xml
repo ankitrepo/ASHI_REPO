@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/custom_layout1"
+    android:background="@color/white"
+    android:gravity="left"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/standard_padding5"
+    android:paddingLeft="@dimen/standard_padding5"
+    android:paddingTop="@dimen/standard_padding5" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="1dip"
+            android:background="@color/backgroundProductScreen"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="1dip"
+                android:layout_marginTop="5dip" >
+
+                <RelativeLayout
+                    android:layout_width="170dp"
+                    android:layout_height="150dp" >
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="168dp"
+                        android:layout_height="146dp"
+                        android:background="@color/white" />
+
+<!--                     <RelativeLayout -->
+<!--                         android:id="@+id/relativeGreendiscount" -->
+<!--                         android:layout_width="fill_parent" -->
+<!--                         android:layout_height="30dp" -->
+<!--                         android:layout_below="@+id/linearProductName" -->
+<!--                         android:layout_marginLeft="5dp" -->
+<!--                         android:layout_marginRight="50dp" -->
+<!--                         android:layout_marginTop="4dp" -->
+<!--                         android:layout_toLeftOf="@+id/Lwish" > -->
+
+<!--                         <TextView -->
+<!--                             android:id="@+id/ImagespecialPriceHome" -->
+<!--                             android:layout_width="63dp" -->
+<!--                             android:layout_height="25dp" -->
+<!--                             android:background="@drawable/discv" -->
+<!--                             android:gravity="center" -->
+<!--                             android:text="jj" -->
+<!--                             android:textColor="@color/white" /> -->
+<!--                     </RelativeLayout> -->
+
+                    
+                    <!-- <ImageView android:layout_height="20dp" -->
+                    <!-- android:layout_width="40dp" -->
+
+
+                    <!-- android:id="@+id/ImagespecialPriceHome" -->
+                    <!-- android:background="@drawable/disct"/> -->
+                </RelativeLayout>
+            </LinearLayout>
+            <!-- <View android:layout_height="2dp" -->
+            <!-- android:layout_width="fill_parent" -->
+            <!-- android:background="@color/gray"/> -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#EEEEEE"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:singleLine="true"
+                    android:text="Shopoclick"
+                     />
+
+                
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/backgroundProductScreen" />
+            </LinearLayout>
+            <!-- <View android:layout_height="2dp" -->
+            <!-- android:layout_width="fill_parent" -->
+            <!-- android:background="@color/gray"/> -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="220dp"
+            android:background="@color/backgroundProductScreen" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="220dp"
+            android:background="@color/white" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/standard_layout1" >
+
+    <LinearLayout
+        style="@style/standard_layout1"
+        android:baselineAligned="true"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout style="@style/mandi5_screen_header_bg" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:background="#B8B8B8"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/header_logo_shopo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/logo" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/standard_layout6"
+            android:layout_weight="100" >
+
+            <LinearLayout style="@style/mandi5_screen_innerbody_layout_style_mar_pad" >
+
+                <ScrollView style="@style/mandi5_screen_scroll_style" >
+
+                    <LinearLayout style="@style/layout_fill_wrap_vertical" >
+
+                        <LinearLayout
+                            style="@style/layout_fill_wrap"
+                            android:paddingBottom="20dip" >
+
+                            <TextView
+                                android:id="@+id/create_account_id"
+                                style="@style/mandi5_text_heading1"
+                                android:layout_marginLeft="5dip"
+                                android:text="@string/create_account" />
+                        </LinearLayout>
+
+                        
+
+                        <LinearLayout
+                            style="@style/layout_fill_wrap"
+                            android:layout_marginBottom="@dimen/standard_padding5"
+                            android:layout_marginTop="5dip" >
+
+                            <EditText
+                                android:id="@+id/account_info_first_name"
+                                style="@style/standard_edittext1"
+                                android:hint="@string/first_name" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            style="@style/layout_fill_wrap"
+                            android:layout_marginBottom="@dimen/standard_padding5"
+                            android:layout_marginTop="5dip" >
+
+                            <EditText
+                                android:id="@+id/account_info_last_name"
+                                style="@style/standard_edittext1"
+                                android:hint="@string/last_name" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            style="@style/layout_fill_wrap"
+                            android:layout_marginBottom="@dimen/standard_padding5"
+                            android:layout_marginTop="5dip" >
+
+                            <EditText
+                                android:id="@+id/account_info_mobile"
+                                style="@style/standard_edittext1"
+                                android:hint="@string/mobile" />
+                        </LinearLayout>
+
+                        <LinearLayout style="@style/mandi5_screen_spinner_layout" >
+
+                            <Spinner
+                                android:id="@+id/mandi5_registration_category_spinner"
+                                style="@style/mandi5_screen_spinner"
+                                android:prompt="@string/please_select" >
+                            </Spinner>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            style="@style/layout_fill_wrap"
+                            android:layout_marginBottom="@dimen/standard_padding5"
+                            android:layout_marginTop="5dip" >
+
+                            <EditText
+                                android:id="@+id/account_info_email"
+                                style="@style/standard_edittext1"
+                                android:hint="@string/email" />
+                        </LinearLayout>
+
+                        <LinearLayout style="@style/mandi5_screen_spinner_layout" >
+
+                            <Spinner
+                                android:id="@+id/mandi5_registration_district_spinner"
+                                style="@style/mandi5_screen_spinner"
+                                android:prompt="@string/please_select" >
+                            </Spinner>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            style="@style/layout_fill_wrap"
+                            android:layout_marginBottom="@dimen/standard_padding5"
+                            android:layout_marginTop="5dip" >
+
+                            <EditText
+                                android:id="@+id/account_info_zip"
+                                style="@style/standard_edittext1"
+                                android:hint="@string/zip" />
+                        </LinearLayout>
+
+
+
+                        <LinearLayout style="@style/mandi5_screen_btn_style" >
+
+                            <Button
+                                android:id="@+id/account_info_button"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/orange_btn"
+                                android:text="@string/submit"
+                                android:textSize="@dimen/standard_padding20" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

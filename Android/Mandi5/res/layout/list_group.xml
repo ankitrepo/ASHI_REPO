@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundProductScreen"
+    android:orientation="horizontal"
+   >
+
+<!--     <ImageView -->
+<!--         android:id="@+id/imageView" -->
+<!--         android:layout_width="0dp" -->
+<!--        android:background="@drawable/ic_launcher" -->
+<!--         android:layout_height="30dp" -->
+<!--         android:layout_weight="1" /> -->
+
+<!--     <TextView -->
+<!--         android:id="@+id/lblListHeader" -->
+<!--         android:layout_width="0dp" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_weight="3" -->
+<!--         android:text="hhjfdvhj" -->
+<!--         android:layout_gravity="center" -->
+<!--         android:layout_marginLeft="@dimen/standard_padding5" -->
+<!--         android:textColor="#252525" /> -->
+
+<!--     <ImageView -->
+<!--         android:id="@+id/plusSymbol" -->
+<!--         android:layout_width="0dp" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_gravity="center" -->
+<!--         android:layout_marginRight="10dp" -->
+<!--         android:background="@drawable/ic_launcher" -->
+<!--         android:layout_weight="0.5"  -->
+<!--          /> -->
+<RelativeLayout android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_marginTop="@dimen/standard_padding5"
+    android:layout_marginBottom="@dimen/standard_padding5"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+         />
+
+<ImageView
+    android:id="@+id/plusSymbol"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+     android:layout_centerVertical="true"
+    
+     android:layout_marginRight="@dimen/standard_padding15"
+    android:layout_alignParentTop="true"
+   />
+
+<TextView
+    android:id="@+id/lblListHeader"
+    android:textColor="#252525" 
+    android:layout_marginLeft="@dimen/standard_padding5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_toRightOf="@+id/imageView"
+   />
+    
+</RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fb="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/standard_layout1" >
+
+    <LinearLayout
+        style="@style/standard_layout1"
+        android:baselineAligned="true"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/mandi5_header_layout" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/standard_layout6"
+            android:layout_weight="100" >
+
+            <LinearLayout
+                android:id="@+id/forgot_layout"
+                style="@style/layout_fill_wrap_vertical"
+                android:layout_height="fill_parent"
+                android:background="@color/white"
+                android:padding="@dimen/standard_padding10"
+                 >
+
+                <LinearLayout
+                    style="@style/layout_fill_wrap"
+                    android:paddingBottom="@dimen/standard_padding20" >
+
+                    <TextView
+                        android:id="@+id/change_passwordTxtview"
+                        style="@style/standard_textview1"
+                        android:layout_marginLeft="@dimen/standard_padding5"
+                        android:text="@string/change_pass" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/mandi5_screen_spinner_layout" >
+
+                    <EditText
+                        android:id="@+id/user_old_pass"
+                        style="@style/standard_edittext1"
+                        android:hint="@string/old_pass" />
+                </LinearLayout>
+                
+                <LinearLayout style="@style/mandi5_screen_spinner_layout"
+                    android:layout_marginTop="@dimen/standard_margin10" >
+
+                    <EditText
+                        android:id="@+id/user_new_password"
+                        style="@style/standard_edittext1"
+                        android:hint="@string/new_pass" />
+                </LinearLayout>
+                
+                <LinearLayout style="@style/mandi5_screen_spinner_layout"
+                    android:layout_marginTop="@dimen/standard_margin10" >
+
+                    <EditText
+                        android:id="@+id/user_confirm_password"
+                        style="@style/standard_edittext1"
+                        android:hint="@string/confirm_pass" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/mandi5_screen_btn_style" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal"
+                        android:paddingRight="@dimen/standard_padding_2" >
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="50" >
+
+                            <Button
+                                android:id="@+id/change_pass_submit_button"
+                                style="@style/layout_fill_fill_vertical"
+                                android:background="@drawable/orange_btn"
+                                android:text="Submit"
+                                android:textSize="@dimen/standard_padding15" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="50"
+                            android:paddingLeft="@dimen/standard_padding_2" >
+
+                            <Button
+                                android:id="@+id/change_pass_cancel_button"
+                                style="@style/layout_fill_fill"
+                                android:background="@drawable/orange_btn"
+                                android:text="Cancel"
+                                android:textSize="@dimen/standard_padding15" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

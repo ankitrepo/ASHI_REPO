@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Mandi5</string>
+    <string name="app_name">Mandi5</string>
+    <string name="mandi5_screen_header_text">Mandi5</string>
+    <string name="category">Category</string>
+    <string name="please_select">Please Select</string>
+    <string name="create_account">Create an Account</string>
+    <string name="register_as_buyer">Register as buyer</string>
+    <string name="register_as_seller">Register as seller</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="email">Email id</string>
+    <string name="zip">Zip Code</string>
+    <string name="password">Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forgot Password?</string>
+    <string name="change_pass">Change Password?</string>
+    <string name="old_pass">Old Password</string>
+    <string name="new_pass">New Password</string>
+    <string name="submit">Submit</string>
+
+    
+    
+    <string name="forgot_userName">User Name</string> 
+     <string-array name="account_info_setting_list">
+        <item>Change Password </item>
+        <item>Contact Us</item>
+        <item>FAQ</item>
+        <item>About Us</item>
+        <item>Log out</item>
+    </string-array>
+</resources>

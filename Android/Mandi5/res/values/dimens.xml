@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <bool name="default_circle_indicator_centered">true</bool>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <bool name="default_line_indicator_centered">true</bool>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <dimen name="standard_padding5">5dip</dimen>
+      <dimen name="standard_padding10">10dip</dimen>
+      <dimen name="standard_padding15">15dip</dimen>
+      <dimen name="standard_padding20">20dip</dimen>
+      <dimen name="standard_margin5">5dip</dimen>
+      <dimen name="standard_margin10">10dip</dimen>
+      <dimen name="standard_margin15">15dip</dimen>
+      <dimen name="standard_margin20">20dip</dimen>
+      <dimen name="standard_text_size5">5dip</dimen>
+      <dimen name="standard_text_size10">10dip</dimen>
+      <dimen name="standard_text_size15">15dip</dimen>
+      <dimen name="standard_text_size20">20dip</dimen>
+      <dimen name="standard_padding_125">125dip</dimen>
+      <dimen name="standard_padding_2">2dip</dimen>
+    <dimen name="standard_padding_5">5dip</dimen>
+    <dimen name="standard_padding_10">10dip</dimen>
+    <dimen name="standard_padding_20">20dip</dimen>
+    <dimen name="dashboard_list_text_size">20dip</dimen>
+    <dimen name="standard_padding_25">25dip</dimen>
+    <dimen name="standard_padding_50">50dip</dimen>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      <dimen name="form_row_parent_padding_top">5dip</dimen>
+      <dimen name="route_between_stations_screen_innerbody_layout_style_margin">10dip</dimen>
+      <dimen name="route_between_stations_screen_innerbody_layout_style_padding">5dip</dimen>
+      <dimen name="form_row_parent_padding_bottom">0dip</dimen>
+      <dimen name="disclaimer_text_view_size">20dip</dimen>
+      <dimen name="text_view_size_15">15dip</dimen>
+      
+      <dimen name="dashboard_list_text_size25">25dip</dimen>
+      <dimen name="dashboard_list_item_padding">10dip</dimen>
+      <dimen name="header_back_btn_width">50dip</dimen>
+      <dimen name="header_text_size">20dip</dimen>
+      <dimen name="spinner_height">35dip</dimen>
+      <dimen name="spinner_padding_bottom">0dp</dimen>
+       <dimen name="spinner_padding_top">0dp</dimen>
+        <dimen name="spinner_padding">0dp</dimen>
+      <dimen name="home_screen_item_padding_top">20dip</dimen>
+      <dimen name="home_screen_item_padding_bottom">20dip</dimen>
+      <dimen name="home_screen_item_padding_left">20dip</dimen>
+      <dimen name="home_screen_item_padding_right">20dip</dimen>
+      <dimen name="home_screen_image_text_size">12dip</dimen>
+      <dimen name="home_screen_text_item_padding">2dip</dimen>
+      <dimen name="dashboard_list_devider_height">2dip</dimen>
+      <dimen name="employer_registration_text_view_size">17dip</dimen>
+      <dimen name="table_header_text_size">15dip</dimen>
+      <dimen name="table_content_text_size">15dip</dimen>
+      <dimen name="employee_text_size">18dip</dimen>
+      
+      <dimen name="standard_button_text_size">20dip</dimen>
+
+</resources>

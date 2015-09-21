@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/imedisecure_personal_details_header_layout"
+        style="@style/mandi5_screen_header_bg" >
+
+        <Button
+            android:id="@+id/mandi5_screen_back_btn"
+            style="@style/mandi5_screen_menu"
+            android:layout_marginLeft="5dip" />
+
+        <Button
+            android:id="@+id/mandi5_screen_back_btn"
+            style="@style/mandi5_screen_back"
+            android:layout_marginLeft="5dip"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/mandi5_header_txt"
+            style="@style/standard_header_text_view"
+            android:maxLength="10"
+            android:text="@string/mandi5_screen_header_text" />
+
+        
+        <Button
+            android:id="@+id/mandi5_setting_btn"
+            style="@style/layout_wrap_wrap"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/setting" />
+        <Button
+            android:id="@+id/mandi5_search_btn"
+            style="@style/layout_wrap_wrap"
+            android:layout_toLeftOf="@id/mandi5_setting_btn"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/search" />
+    </RelativeLayout>
+
+</LinearLayout>

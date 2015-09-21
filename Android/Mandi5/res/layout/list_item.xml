@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/searchLayout"
+    android:padding="@dimen/standard_padding5"
+    android:background="@color/backgroundProductScreen"
+    android:orientation="horizontal" >
+ 
+    <TextView
+        android:id="@+id/lblListItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="fgjffgghjds"
+        android:textColor="@color/black"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="35dp"
+        android:paddingBottom="5dp"
+       />
+ 
+<!--     <ExpandableListView -->
+<!--         android:id="@+id/expLstSubChild" -->
+<!--         android:layout_width="@dimen/standard_padding_200" -->
+<!--         android:layout_height="match_parent" -->
+<!--         android:layout_gravity="left" -->
+<!--         android:background="@color/whiteTransparent" -->
+<!--         android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" > -->
+<!--     </ExpandableListView> -->
+    
+</LinearLayout>
